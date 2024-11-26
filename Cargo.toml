@@ -1,0 +1,95 @@
+[package]
+name = "cses"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "1068-weird-algorithm"
+path = "src/1068_weird_algorithm.rs"
+
+[[bin]]
+name = "1069-repetitions"
+path = "src/1069_repetitions.rs"
+
+[[bin]]
+name = "1070-permutations"
+path = "src/1070_permutations.rs"
+
+[[bin]]
+name = "1071-number-spiral"
+path = "src/1071_number_spiral.rs"
+
+[[bin]]
+name = "1073-towers"
+path = "src/1073_towers.rs"
+
+[[bin]]
+name = "1074-stick-lengths"
+path = "src/1074_stick_lengths.rs"
+
+[[bin]]
+name = "1083-missing-number"
+path = "src/1083_missing_number.rs"
+
+[[bin]]
+name = "1084-apartments"
+path = "src/1084_apartments.rs"
+
+[[bin]]
+name = "1090-ferris-wheel"
+path = "src/1090_ferris_wheel.rs"
+
+[[bin]]
+name = "1091-concert-tickets"
+path = "src/1091_concert_tickets.rs"
+
+[[bin]]
+name = "1092-two-sets"
+path = "src/1092_two_sets.rs"
+
+[[bin]]
+name = "1094-increasing-array"
+path = "src/1094_increasing_array.rs"
+
+[[bin]]
+name = "1141-playlist"
+path = "src/1141_playlist.rs"
+
+[[bin]]
+name = "1621-distinct-numbers"
+path = "src/1621_distinct_numbers.rs"
+
+[[bin]]
+name = "1618-trailing-zeros"
+path = "src/1618_trailing_zeros.rs"
+
+[[bin]]
+name = "1619-restaurant-customers"
+path = "src/1619_restaurant_customers.rs"
+
+[[bin]]
+name = "1622-creating-strings"
+path = "src/1622_creating_strings.rs"
+
+[[bin]]
+name = "1623-apple-division"
+path = "src/1623_apple_division.rs"
+
+[[bin]]
+name = "1629-movie-festival"
+path = "src/1629_movie_festival.rs"
+
+[[bin]]
+name = "1640-sum-of-two-values"
+path = "src/1640_sum_of_two_values.rs"
+
+[[bin]]
+name = "1754-coin-piles"
+path = "src/1754_coin_piles.rs"
+
+[[bin]]
+name = "1755-palindrome-reorder"
+path = "src/1755_palindrome_reorder.rs"
+
+[dependencies]
+
