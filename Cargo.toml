@@ -88,6 +88,10 @@ name = "1640-sum-of-two-values"
 path = "src/1640_sum_of_two_values.rs"
 
 [[bin]]
+name = "1643-maximum-subarray-sum"
+path = "src/1643_maximum_subarray_sum.rs"
+
+[[bin]]
 name = "1754-coin-piles"
 path = "src/1754_coin_piles.rs"
 
