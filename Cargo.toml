@@ -56,6 +56,10 @@ name = "1141-playlist"
 path = "src/1141_playlist.rs"
 
 [[bin]]
+name = "1620-factory-machines"
+path = "src/1620_factory_machines.rs"
+
+[[bin]]
 name = "1621-distinct-numbers"
 path = "src/1621_distinct_numbers.rs"
 

@@ -4,7 +4,7 @@ n = int(input())
 blocks = list(map(int, input().split()))
 
 # Keep track of the top block on the tower
-towers = []
+towers: list[int] = []
 
 for x in blocks:
     i = bisect(towers, x)
