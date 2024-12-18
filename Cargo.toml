@@ -88,6 +88,10 @@ name = "1633-dice-combinations"
 path = "src/1633_dice_combinations.rs"
 
 [[bin]]
+name = "1634-minimizing-coins"
+path = "src/1634_minimizing_coins.rs"
+
+[[bin]]
 name = "1640-sum-of-two-values"
 path = "src/1640_sum_of_two_values.rs"
 
