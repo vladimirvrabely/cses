@@ -92,6 +92,11 @@ name = "1634-minimizing-coins"
 path = "src/1634_minimizing_coins.rs"
 
 [[bin]]
+name = "1635-coin-combinations-i"
+path = "src/1635_coin_combinations_i.rs"
+
+
+[[bin]]
 name = "1640-sum-of-two-values"
 path = "src/1640_sum_of_two_values.rs"
 
