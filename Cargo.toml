@@ -99,6 +99,9 @@ path = "src/1635_coin_combinations_i.rs"
 name = "1636-coin-combinations-ii"
 path = "src/1636_coin_combinations_ii.rs"
 
+[[bin]]
+name = "1637-removing-digits"
+path = "src/1637_removing_digits.rs"
 
 [[bin]]
 name = "1640-sum-of-two-values"
