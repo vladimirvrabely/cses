@@ -119,5 +119,9 @@ path = "src/1754_coin_piles.rs"
 name = "1755-palindrome-reorder"
 path = "src/1755_palindrome_reorder.rs"
 
+[[bin]]
+name = "2183-missing-coin-sum"
+path = "src/2183_missing_coin_sum.rs"
+
 [dependencies]
 
