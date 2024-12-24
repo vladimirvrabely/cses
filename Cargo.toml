@@ -104,6 +104,10 @@ name = "1637-removing-digits"
 path = "src/1637_removing_digits.rs"
 
 [[bin]]
+name = "1638-grid-paths"
+path = "src/1638_grid_paths.rs"
+
+[[bin]]
 name = "1640-sum-of-two-values"
 path = "src/1640_sum_of_two_values.rs"
 
