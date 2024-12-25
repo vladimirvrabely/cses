@@ -25,20 +25,15 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         .map(|x| x.parse::<usize>())
         .collect::<Result<Vec<_>, _>>()?;
 
-    let mut values = vec![0; (n + 1) * (x + 1)];
+    let mut values = vec![0; x + 1];
 
-    for i in 1..=n {
-        for j in 0..=x {
-            if prices[i - 1] > j {
-                values[i * (x + 1) + j] = values[(i - 1) * (x + 1) + j];
-            } else {
-                values[i * (x + 1) + j] = values[(i - 1) * (x + 1) + j]
-                    .max(values[(i - 1) * (x + 1) + j - prices[i - 1]] + pages[i - 1]);
-            }
+    for i in 0..n {
+        for j in (prices[i]..=x).rev() {
+            values[j] = values[j].max(pages[i] + values[j - prices[i]])
         }
     }
 
-    writeln!(output, "{}", values[(n + 1) * (x + 1) - 1])?;
+    writeln!(output, "{}", values[x])?;
 
     Ok(())
 }
