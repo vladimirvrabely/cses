@@ -1,12 +1,13 @@
 n, x = map(int, input().split())
-
 prices = list(map(int, input().split()))
 pages = list(map(int, input().split()))
 
-values = [0 for _ in range(x + 1)]
+dp = [0 for _ in range(x+1)]
 
 for i in range(n):
-    for j in range(x, prices[i] - 1, -1):
-        values[j] = max(values[j], pages[i] + values[j - prices[i]])
+    page = pages[i]
+    price = prices[i]
+    for j in range(x, price - 1, -1):
+        dp[j] = max(page + dp[j - price], dp[j])
 
-print(values[-1])
+print(dp[-1])
