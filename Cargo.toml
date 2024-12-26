@@ -88,6 +88,10 @@ name = "1629-movie-festival"
 path = "src/1629_movie_festival.rs"
 
 [[bin]]
+name = "1630-tasks-and-deadlines"
+path = "src/1630_tasks_and_deadlines.rs"
+
+[[bin]]
 name = "1633-dice-combinations"
 path = "src/1633_dice_combinations.rs"
 

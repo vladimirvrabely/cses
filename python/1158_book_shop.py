@@ -2,7 +2,7 @@ n, x = map(int, input().split())
 prices = list(map(int, input().split()))
 pages = list(map(int, input().split()))
 
-dp = [0 for _ in range(x+1)]
+dp = [0 for _ in range(x + 1)]
 
 for i in range(n):
     page = pages[i]
