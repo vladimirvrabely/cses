@@ -60,6 +60,10 @@ name = "1158-book-shop"
 path = "src/1158_book_shop.rs"
 
 [[bin]]
+name = "1192-counting-rooms"
+path = "src/1192_counting_rooms.rs"
+
+[[bin]]
 name = "1620-factory-machines"
 path = "src/1620_factory_machines.rs"
 
